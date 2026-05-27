@@ -1,0 +1,12 @@
+$kind: http-request
+name: http://localhost:8080/students/register
+url: http://localhost:8080/students/register
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "studentName":"Response Test",
+      "jeeRank":11
+    }
+order: 1779822427145
